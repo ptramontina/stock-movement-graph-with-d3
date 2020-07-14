@@ -1,0 +1,52 @@
+.g-mov-rect-positive {
+  fill: #d5e8d4;
+  stroke: #82b366;
+  stroke-width: 1;
+}
+
+.g-mov-rect-negative {
+  fill: #e0e0e0;
+  /* stroke: #9b9b9b; */
+  stroke: #82b366;
+  stroke-width: 1;
+  stroke-dasharray: 5;
+}
+
+.g-mov-x-axis .tick text {
+  font-size: 2em;
+  fill: #635f5d;
+}
+
+.g-mov-y-axis .tick text {
+  font-size: 10em;
+  fill: #635f5d;
+}
+
+.g-mov-y-axis .tick line {
+  stroke: #c0c0bb;
+}
+
+.g-mov-title {
+  font-size: 2.5em;
+  fill: #635f5d;
+}
+
+.g-mov-text-amount {
+  font-size: 1.8em;
+  text-anchor: middle;
+}
+
+.g-mov-text-amount.positive {
+  fill: #82b366;
+}
+
+.g-mov-text-amount.negative {
+  fill: #9b9b9b;
+}
+
+.g-mov-text-total {
+  font-size: 1.8em;
+  text-anchor: middle;
+  font-style: italic;
+  opacity: 0.5;
+}
